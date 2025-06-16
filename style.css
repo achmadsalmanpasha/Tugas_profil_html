@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+}
+
+#container {
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#text-container {
+    text-align: left;
+    max-width: 50%;
+}
+
+#image-container {
+    position: relative;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+
+#image-container img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#about, #skills, #Contact {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.skill-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill-icons img {
+    width: 50px;
+}
+
+.Contact-icon {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+} 
+
+.Contact-icon img{
+    width: 50px;
+}
